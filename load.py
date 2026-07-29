@@ -14,8 +14,8 @@ def load_data(clean_data):
         conn = psycopg2.connect(
             host="localhost",
             database="weather_etl_split",
-            user="my-postgres",
-            password="Elektra2@"
+            user="username",
+            password="password"
         )
         cursor = conn.cursor()
 
